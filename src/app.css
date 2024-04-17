@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+
+:root {
+  --green-dark: #36502D;
+  --green-light:  #767C26;
+  --brown-dark: #3C270F;
+  --brown-light: #7F5525;
+  --contrast-dark: #C12424;
+  --contrast-light: #DEB01B;
+  --blue-dark: #203A3A;
+  --blue-light: #4F8D74;
+  --light: #E6D9AD;
+}
+
+.font {
+  font-family: "Titan One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}

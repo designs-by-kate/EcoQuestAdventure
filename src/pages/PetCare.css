@@ -1,0 +1,83 @@
+.petCareContainer {
+    font-family: "Titan One", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-image: url(../assets/BG.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.petCareHeader {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: row;
+}
+
+.petCareHeader h1 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 2rem;
+    color: var(--light);
+    text-shadow: 1px 1px 1px var(--brown-dark);
+}
+
+.petCareHeader h2 {
+    font-size: 1.5rem;
+    color: var(--green-light);
+    text-shadow: 1px 1px 1px var(--brown-dark);
+}
+
+.petCareHeader h3 {
+    font-size: 1rem;
+    color: var(--blue-dark);
+    text-shadow: 1px 1px 1px var(--blue-light);
+}
+
+.petCareContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.petCareMainImage {
+    width: 40%;
+    max-width: 50%;
+    border-radius: 50%;
+    border: 5px solid var(--green-light);
+    height: auto;
+    margin: 20px;
+}
+
+.petCareContent {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.petCareItem {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.petCareIcon {
+    background-color: rgba(255, 255, 255, 0.429);
+    border-radius: 50%;
+    max-width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.progress {
+    margin-right: 20px;
+    width: 90%;
+}

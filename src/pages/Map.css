@@ -1,0 +1,47 @@
+.mapContainer {
+    font-family: "Titan One", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(../assets/BG.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding:10px;
+  }
+
+  .mapContainer h1 {
+    margin-top: 100px;
+    font-size: 3rem;
+    color: var(--light);
+    text-shadow: 1px 1px 1px var(--brown-dark);
+  }
+  
+  .mapImage {
+    max-width: 90%;
+    height: auto;
+    margin: 20px;
+    border: 3px solid var(--green-dark);
+    border-radius: 10px;
+  }
+  
+  .goButton {
+    width: 90%;
+    padding: 2px 5px;
+    background-color: var(--brown-light);
+    font-size: 2rem;
+    color: var(--light);
+    text-shadow: 1px 1px 1px var(--brown-dark);
+    border: 3px solid var(--green-dark);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    cursor: pointer;
+    transition: background-color 0.1s ease; 
+  }
+  
+  .goButton:hover {
+    background-color: var(--brown-dark);
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 1);
+  }

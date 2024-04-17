@@ -1,0 +1,78 @@
+.profileContainer {
+    font-family: "Titan One", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(../assets/BG.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .profileHeader {
+    margin-top: 100px;
+    text-align: center;
+  }
+
+  .profileHeader h1{
+    font-size: 3rem;
+    color: var(--light);
+    text-shadow: 1px 1px 1px var(--brown-dark);
+  }
+  
+  .profileHeader h2{
+    font-size: 2rem;
+    color: var(--green-light);
+    text-shadow: 1px 1px 1px var(--brown-dark);
+  }
+
+  .profile-main-image {
+    max-width: 100%;
+    border-radius: 50%;
+    border: 5px solid var(--green-light);
+    height: auto;
+    margin: 20px;
+  }
+  
+  .profileTitle {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .profileTitle h3{
+    font-size: 1.5rem;
+    color: var(--light);
+    text-shadow: 1px 1px 1px var(--brown-dark);
+  }
+
+  .progress {
+    width: 100%;
+    margin: 20px auto;
+  }
+  
+  .profileProgressBar{
+    background-color: var(--blue-light)!important; 
+    border: 2px solid var(--blue-dark) !important; 
+  }
+  .profileImage{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+  }
+
+  .profilePetTitle{
+    padding: 20px;
+    font-size: 3rem;
+    color: var(--green-dark);
+    text-shadow: 1px 1px 1px var(--light);
+  }
+
+  .profile-sub-image {
+    max-width: 100px;
+    border-radius: 50%;
+    border: 5px solid var(--green-light);
+    height: auto;
+  }
+  
