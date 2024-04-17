@@ -1,18 +1,20 @@
 .profileContainer {
-    font-family: "Titan One", sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
-    align-items: center;
-    height: 100vh;
-    background-image: url(../assets/BG.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+  font-family: "Titan One", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(../assets/BG.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 100px;
+  padding-bottom: 50px;
+  overflow-y: auto;
   }
   
   .profileHeader {
-    margin-top: 100px;
     text-align: center;
   }
 
