@@ -23,11 +23,11 @@ The wireframe includes the following features:
 
 - Login Page: Secure login functionality for users to access their accounts and personalized content.
   
- ![image](https://github.com/designs-by-kate/EcoQuestAdventure/assets/146155569/bd77a84b-b2eb-4340-8615-71d0971d9a9e)
+   ![image](https://github.com/designs-by-kate/EcoQuestAdventure/assets/146155569/bd77a84b-b2eb-4340-8615-71d0971d9a9e)
 
 - Profile Page: Displays user's level, progress towards readiness for adoption (progress bar), and information about the pet currently adopted.
 
-![image](https://github.com/designs-by-kate/EcoQuestAdventure/assets/146155569/66dc0f84-1642-4e02-bee2-46fc8cc1fc80)
+  ![image](https://github.com/designs-by-kate/EcoQuestAdventure/assets/146155569/66dc0f84-1642-4e02-bee2-46fc8cc1fc80)
 
 - Adoption Page: Allows users to view animals ready for adoption and select one to adopt.
 
@@ -44,9 +44,8 @@ The wireframe includes the following features:
 
 
 - Edu Page: Offers educational content about animals, plants, and conservation efforts within the park. Users can take quizzes to test their understanding and earn badges. Accumulating a certain number of badges enables users to adopt a pet.
-
-  ![image](https://github.com/designs-by-kate/EcoQuestAdventure/assets/146155569/5615d2c3-c328-41ed-8d6b-f324a241cc0a)
   ![image](https://github.com/designs-by-kate/EcoQuestAdventure/assets/146155569/1673fd88-d1cb-4f44-be8e-1f295b1746b9)
+  ![image](https://github.com/designs-by-kate/EcoQuestAdventure/assets/146155569/5615d2c3-c328-41ed-8d6b-f324a241cc0a)
 
 - Interactive Elements: Interactive components such as quizzes, games, or challenges to engage children and reinforce learning objectives.
 
