@@ -15,7 +15,10 @@ function BadgePage() {
 
   return (
     <div className="badgeContainer">
+      <div className="badgeHeading"> 
       <h1>BADGES</h1>
+      </div>
+      <div className="badgeImageContainer">
       <div className="badgeGrid">
         {badgeImages.map((image, index) => (
           <img key={index} src={image} alt={`Badge ${index + 1}`} className="badgeImage" />
@@ -24,7 +27,10 @@ function BadgePage() {
           <img key={index} src={image} alt={`Empty Badge ${index + 1}`} className="badgeImage" />
         ))}
       </div>
+      </div>
+      <div className="badgeBtnContainer">
       <button className="badgeButton">ADD NEW</button>
+      </div>
     </div>
   );
 }

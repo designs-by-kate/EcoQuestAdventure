@@ -38,25 +38,25 @@
   height: 50px; 
   background-color: var(--green-light); 
   border-bottom: 2px solid var(--green-dark);
-  display: flex;
-  align-items: center;
 }
 
 .customNavbar ul {
   display: flex;
-  justify-content: center;
-  text-align: center;
+  justify-content: space-between; /* Distribute items evenly */
   list-style: none;
-  padding: 0.2rem;
-  margin: 5px;
+  padding-left: 0;
+  overflow-x: auto; /* Add horizontal scrolling */
 }
 
 .customNavbar li {
+  flex-grow: 1; /* Each item takes up equal space */
+  text-align: center; /* Center align the icon */
   color: var(--green-dark);
   margin: 0 0.5rem 0 0.5rem; /* Adjust spacing between items */
 }
 
 .customNavbar .nav-link {
+  display: block; /* Display as block element to take up full width */
   color: var(--green-dark);
   text-decoration: none;
 }

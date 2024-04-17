@@ -34,22 +34,28 @@ function StickerPage() {
 
   return (
     <div className="stickerContainer">
-      <h1>STICKERS</h1>
-      <div className="stickerGrid">
-        {animalImages.map((image, index) => (
-          <img key={index} src={image} alt={`Animal ${index + 1}`} className="stickerImage siAnimal" />
-        ))}
-        {insectImages.map((image, index) => (
-          <img key={index} src={image} alt={`Insect ${index + 1}`} className="stickerImage siInsect" />
-        ))}
-        {plantImages.map((image, index) => (
-          <img key={index} src={image} alt={`Plant ${index + 1}`} className="stickerImage siPlant" />
-        ))}
-        {fruitImages.map((image, index) => (
-          <img key={index} src={image} alt={`Fruit ${index + 1}`} className="stickerImage siFruit" />
-        ))}
+      <div className="stickerHeading">
+        <h1>STICKERS</h1>
       </div>
-      <button className="stickerButton">ADD NEW</button>
+      <div className="stickerImageContainer">
+        <div className="stickerGrid">
+          {animalImages.map((image, index) => (
+            <img key={index} src={image} alt={`Animal ${index + 1}`} className="stickerImage siAnimal" />
+          ))}
+          {insectImages.map((image, index) => (
+            <img key={index} src={image} alt={`Insect ${index + 1}`} className="stickerImage siInsect" />
+          ))}
+          {plantImages.map((image, index) => (
+            <img key={index} src={image} alt={`Plant ${index + 1}`} className="stickerImage siPlant" />
+          ))}
+          {fruitImages.map((image, index) => (
+            <img key={index} src={image} alt={`Fruit ${index + 1}`} className="stickerImage siFruit" />
+          ))}
+        </div>
+      </div>
+      <div className="stickerBtnContainer">
+        <button className="stickerButton">ADD NEW</button>
+      </div>
     </div>
   );
 }

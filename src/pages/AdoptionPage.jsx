@@ -18,14 +18,20 @@ function AdoptionPage() {
 
   return (
     <div className="adoptionContainer">
+      <div className="adoptionHeading">
       <h1>ADOPTION</h1>
       <h3> CHOOSE THE ANIMAL </h3>
-      <div className="adoptionGrid">
-      {animalImages.map((image, index) => (
-          <img key={index} src={image} alt={`Animal ${index + 1}`} className="adoptionImage" />
-        ))}
       </div>
-      <button className="adoptionButton">ADOPT</button>
+      <div className="adoptionImageContainer">
+        <div className="adoptionGrid">
+          {animalImages.map((image, index) => (
+            <img key={index} src={image} alt={`Animal ${index + 1}`} className="adoptionImage" />
+          ))}
+        </div>
+      </div>
+      <div className="adoptionBtnContainer">
+        <button className="adoptionButton">ADOPT</button>
+      </div>
     </div>
   );
 }
