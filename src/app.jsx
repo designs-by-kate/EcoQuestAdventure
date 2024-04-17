@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import './app.css';
 import ProfilePage from './pages/ProfilePage';
 import LoginPage from './pages/LoginPage';
@@ -15,7 +15,7 @@ import NavBar from './component/NavBar';
 
 export function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div>
         <Header />
         <NavBar />
@@ -32,7 +32,7 @@ export function App() {
           <Route path="/sticker" element={<StickerPage />} />
         </Routes>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
